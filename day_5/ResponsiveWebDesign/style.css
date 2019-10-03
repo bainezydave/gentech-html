@@ -1,0 +1,102 @@
+:root {
+    --creamy-color: #F0DDBC;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    color: var(--creamy-color);
+    font-size: 1.1em;
+}
+
+body {
+    background-color: #323639;
+}
+
+h1 {
+    margin: 30px;
+    text-align: center;
+    flex: 100%;
+}
+
+h2 {
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#food-image {
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s;
+    flex: 100%;
+}
+
+#food-image img {
+    width: 100%; height: 100%;
+}
+
+section {
+    width: 500px;
+    margin: 15px 40px;
+    color: #fff;
+}
+
+section li {
+    font-size: .8em;
+    line-height: 3em;
+}
+
+section ul li {
+    list-style: none;
+}
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #food-image {
+        max-width: 600px;
+        border: solid 4px var(--creamy-color);
+        border-radius: 10px;
+    }
+
+    section {
+        margin: inherit auto;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}

@@ -1,0 +1,30 @@
+*, 
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 100%;
+    height: 50vh;
+    transition: all .3s;
+}
+
+#one {
+    background-color: purple;
+}
+
+#two {
+    background-color: orange;
+}
+
+@media only screen and (max-width: 600px) {
+    #one {
+        background-color: hotpink;
+    }
+
+    #two {
+        background-color: red;
+    }
+}

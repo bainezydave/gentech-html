@@ -1,0 +1,23 @@
+div {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+#one {
+    background-color: red;
+    background-image: url("./images/architecture-asia-bar-1455993.jpg");
+}
+
+#two {
+    background-color: blue;
+    background-image: url("./images/black-and-white-clear-cool-459451.jpg");
+}
+
+#three {
+    background-color: green;
+    background-image: url("./images/blurred-background-close-up-colors-2068411.jpg");
+}
